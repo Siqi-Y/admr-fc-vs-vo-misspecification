@@ -97,7 +97,6 @@ p_param_heatmap <- ggplot(
   ) +
   labs(
     title = "Relative Bias of Parameter Estimates",
-    subtitle = "Comparison across misspecification scenarios",
     x = "Parameter",
     y = "Removed IIV",
     fill = "Bias (%)"
@@ -135,7 +134,6 @@ p_bsv_heatmap <- ggplot(
   ) +
   labs(
     title = "Relative Bias of BSV",
-    subtitle = "Comparison across misspecification scenarios",
     x = "Parameter",
     y = "Removed IIV",
     fill = "Bias (%)"
